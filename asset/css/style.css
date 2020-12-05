@@ -81,7 +81,6 @@ header nav ul li a {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 3;
     }
-    
 
 /* content */
 
@@ -119,6 +118,14 @@ header nav ul li a {
     color: var(--black);
 }
 
+.self-photo {
+    border: 2px solid var(--darkgrey);
+}
+
+.info img {
+    border: 10px solid var(--lightsteelblue);
+    margin-left: 15px;
+}
 
 section {
     padding:30px;
@@ -133,4 +140,32 @@ section {
     padding: 15px;
 }
 
-/* contact me */
+/* Work Link/Image style */
+.img-1, .img-2 {
+    position: relative;
+    filter: brightness(90%)
+}
+
+.img-1:hover{
+    filter:brightness(100%)
+}
+
+.img-2:hover{
+    filter:brightness(100%)
+}
+
+.img-1 h4, .img-2 h4{
+    font-weight: lighter;
+
+}
+.img-1-text, .img-2-text {
+    position: absolute;
+    bottom: 12px;
+    right: 10px;
+    background-color:var(--lightsteelblue);
+    color: white;
+    padding: 10px 40px 10px 40px;
+    
+}
+
+
