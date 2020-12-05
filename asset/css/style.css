@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+--black: #181b26;
+--grey:#ebf0f9; 
+--lightblue: #c4ccd4;
+--lightsteelblue: #3b67ba;
+--midnightblue: #121b2d;
+--darkgrey: #004d80;
+}
+
+
+
+body {
+    font-family: helvetica, Arial, sans-serif;
+    color: var(--midnightblue);
+}
+
+header {
+    padding: 20px 35px;
+    background-color: var(--darkgrey);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--lightblue);
+    margin: 0;
+}
+    
+header a {
+    text-decoration: none;
+    color: Var(--lightblue);
+}
+    
+header nav {
+    margin: 7px 0;
+}
+    
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: bold;
+    font-size: 1.55vw;
+    border-bottom: 3px solid;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.hero {
+    height: 200px;
+    width: 100%;
+    background-image: url("../image/portfolio-background.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* Hero Style End */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 3;
+    }
+    
+
+/* content */
+
+.content {
+    background-color: var(--grey);
+    background-size: cover;
+    background-position: center;
+}
+
+.title p {
+    line-height: 1.7;
+    font-size: 20px;
+    text-align: left;
+    padding:15px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    grid-column: span 3;
+}
+.info ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.info ul li a {
+    margin: 0 80px;
+    font-weight: bold;
+    font-size: 1.55vw;
+    color: var(--black);
+}
+
+
+section {
+    padding:30px;
+}
+
+.section-title {
+    font-size: 40px;
+    color: var(--midnightblue);
+    margin: 0;
+    border-right: 3px solid;
+    text-align: right;
+    padding: 15px;
+}
+
+/* contact me */
