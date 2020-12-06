@@ -13,7 +13,6 @@
 --darkgrey: #004d80;
 }
 
-
 body {
     font-family: helvetica, Arial, sans-serif;
     color: var(--midnightblue);
@@ -58,11 +57,9 @@ header nav ul li a {
     font-size: 1.55vw;
     border-bottom: 3px solid;
 }
-
 /* Header Style end */
 
 /* Hero Style start */
-
 .hero {
     height: 200px;
     width: 100%;
@@ -109,7 +106,6 @@ header nav ul li a {
     padding-bottom: 20px;
     flex: 1 0 auto;
 }
-
     
 .intro img {
     width: 300px;
@@ -123,14 +119,9 @@ header nav ul li a {
     margin: 0;
     padding-left: 10px;
 }
-.border-1{
-
-}
-
 /* About Me Style Ends */
 
 /* Work Style Starts */
-
 .border-2 {
     padding-left: 15px;
 }
@@ -139,8 +130,8 @@ header nav ul li a {
     flex: 1;
     display: flex;
     flex-wrap: wrap;
-
 }
+
 .img-1, .img-2 {
     padding-left: 15px;
     position: relative;
@@ -166,7 +157,6 @@ header nav ul li a {
 .img-text h4 {
     font-weight: lighter;
 }
-
 /* Work Style ends */
 
 /* Contact Style Starts */
@@ -174,20 +164,19 @@ header nav ul li a {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    width: 85%;
+    width: 84.5%;
     padding-bottom: 20px;
     display: flex;
-}
-
-.contact-me h2 {
     text-align: right;
 }
+
 .border-3 {
     font-size: 40px;
     color: var(--midnightblue);
     border-right: 3px solid;
     padding-right: 15px;
 }
+
 .info nav {
     margin: 0;
     flex: 1;
