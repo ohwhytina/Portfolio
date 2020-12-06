@@ -14,3 +14,4 @@ https://ohwhytina.github.io/Portfolio/
 Tina Nguyen
 
 ## Screenshoot
+https://raw.githubusercontent.com/ohwhytina/Portfolio/master/asset/image/Screenshot.jpg
