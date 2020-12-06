@@ -31,12 +31,16 @@ header h1 {
     font-weight: bold;
     font-size: 36px;
     color: var(--lightblue);
-    margin: 0;
+    margin: 0 0 0 -40px;
+    background-color: var(--midnightblue);
+    background-size: 20px;
+    padding: 5px 1px 5px 50px;
 }
     
 header a {
     text-decoration: none;
     color: Var(--lightblue);
+    
 }
     
 header nav {
@@ -56,12 +60,19 @@ header nav ul li a {
     font-weight: bold;
     font-size: 1.55vw;
     border-bottom: 3px solid;
+    transition: 0.3s;
 }
+
+header nav ul li a:hover {
+    background-color: var(--lightblue);
+    color: var(--midnightblue);
+}
+
 /* Header Style end */
 
 /* Hero Style start */
 .hero {
-    height: 200px;
+    height: 300px;
     width: 100%;
     background-image: url("../image/portfolio-background.jpg");
     background-size: cover;
@@ -69,7 +80,28 @@ header nav ul li a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    position: relative;
 }
+
+.hero-form {
+    position: absolute;
+    bottom: 25px;
+    right: 50px;
+    background-color: var(--lightblue);
+    color: var(--midnightblue);
+    padding-left: 150px;
+    padding-right: 150px;
+    
+}
+
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
 /* Hero Style End */
 
 /* content */
