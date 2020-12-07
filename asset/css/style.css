@@ -162,18 +162,21 @@ header nav ul li a:hover {
     flex: 1;
     display: flex;
     flex-wrap: wrap;
-}
-
-.img-1, .img-2 {
+    gap: 15px;
     padding-left: 15px;
+}
+
+.img-one, .img-two {
     position: relative;
+    border: 6px solid var(--lightsteelblue);
+    height: 312px;
 }
 
-.img-1 a, .img-2 a {
-    filter: brightness(90%);
+.img-one a, .img-two a {
+    filter: brightness(75%);
 }
 
- .img-1 a:hover, .img-2 a:hover{
+ .img-one a:hover, .img-two a:hover{
     filter:brightness(100%)
 }
 
@@ -181,7 +184,8 @@ header nav ul li a:hover {
     position: absolute;
     bottom: 10px;
     right: 0px;
-    background-color: var(--lightblue);
+    background-color: var(--lightsteelblue);
+    color: var(--lightblue);
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -198,7 +202,6 @@ header nav ul li a:hover {
     margin: 0 auto;
     width: 84.5%;
     padding-bottom: 20px;
-    display: flex;
     text-align: right;
 }
 
