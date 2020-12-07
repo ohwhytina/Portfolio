@@ -129,12 +129,12 @@ header nav ul li a:hover {
 }
 
 /* About Me Section Style Starts */
-.intro, .projects{
+.intro, .projects, .contact-me{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
     padding-bottom: 20px;
     flex: 1 0 auto;
 }
@@ -226,23 +226,11 @@ padding-left: 15px;
 
 /* Contact Style Starts */
 .contact-me {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    width: 84.5%;
-    padding-bottom: 20px;
-    text-align: right;
-}
+    width:85%;
 
-.border-3 {
-    font-size: 40px;
-    color: var(--midnightblue);
-    border-right: 3px solid;
-    padding-right: 15px;
 }
-
 .info nav {
-    margin: 0;
+    margin: 0 auto;
     flex: 1;
 }
 
@@ -255,7 +243,7 @@ padding-left: 15px;
 }
 
 .info nav ul li a {
-    margin: 0 30px;
+    margin: 0 45px;
     font-weight: bold;
     font-size: 1.55vw;
     border-bottom: 3px solid;
@@ -267,9 +255,4 @@ padding-left: 15px;
 }
 
 /* Contact section style end */
-
-
-
-
-
 
