@@ -177,9 +177,11 @@ padding-left: 15px;
     filter: brightness(75%);
     border: 5px solid var(--lightsteelblue);
 }
+
  .img-one:hover, .img-two:hover,.img-three:hover,.img-four:hover,.img-five:hover{
     filter:brightness(100%)
 }
+
 .grid-one, .grid-two, .grid-three, .grid-four, .grid-five{
     position: relative;
     display: flex;
