@@ -221,10 +221,10 @@ padding-left: 15px;
     grid-row-end: 3;
 }
 .grid-six {
-    grid-column-start:3;
-    grid-column-end: 5;
-    grid-row-start: 4;
-    grid-row-end: 4;
+    grid-column-start:5;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 3;
 }
 .img-text {
     position: absolute;
