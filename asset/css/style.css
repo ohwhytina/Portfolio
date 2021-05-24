@@ -170,7 +170,7 @@ grid-auto-flow: column;
 padding-left: 15px;
 }
 
-.img-one,.img-two,.img-three,.img-four, .img-five{
+.img-one,.img-two,.img-three,.img-four, .img-five, .img-six{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -178,11 +178,11 @@ padding-left: 15px;
     border: 5px solid var(--lightsteelblue);
 }
 
- .img-one:hover, .img-two:hover,.img-three:hover,.img-four:hover,.img-five:hover{
+ .img-one:hover, .img-two:hover,.img-three:hover,.img-four:hover,.img-five:hover, .img-six:hover{
     filter:brightness(100%)
 }
 
-.grid-one, .grid-two, .grid-three, .grid-four, .grid-five{
+.grid-one, .grid-two, .grid-three, .grid-four, .grid-five, .grid-six{
     position: relative;
     display: flex;
     width: 100%;
@@ -219,6 +219,12 @@ padding-left: 15px;
     grid-column-end: 5;
     grid-row-start: 3;
     grid-row-end: 3;
+}
+.grid-six {
+    grid-column-start:3;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 4;
 }
 .img-text {
     position: absolute;
